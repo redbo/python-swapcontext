@@ -4,6 +4,11 @@ I just wrote it to benchmark greenlet against the system's swapcontext.
 
 BTW, greenlet is fast.
 
+redbo@saio:~/swapcontext$ python perf.py
+   greenlet 0.0600001811981
+swapcontext 0.369999885559
+
+redbo@saio:~/swapcontext$ python perf2.py
    greenlet 0.0599999427795
-swapcontext 0.330000162125
+swapcontext 0.150000095367
 
