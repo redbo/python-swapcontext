@@ -2,3 +2,8 @@ This probably isn't what you want.
 
 I just wrote it to benchmark greenlet against the system's swapcontext.
 
+BTW, greenlet is fast.
+
+   greenlet 0.0599999427795
+swapcontext 0.330000162125
+
